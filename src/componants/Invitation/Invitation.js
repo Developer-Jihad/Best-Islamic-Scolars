@@ -14,7 +14,7 @@ const Invitation = (props) => {
             <h2>Invitaion</h2>
             <hr />
             <h4>Invited Scholars : {invite.length}</h4>
-            <h4>Total Cost : {total}</h4>
+            <h4>Total Cost : {total}/-</h4>
             <br />
             <h2>Scholars</h2>
             <hr />
