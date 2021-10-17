@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './componants/Header/Header';
+import Body from './componants/Body/Body';
 
 function App() {
   return (
     <div>
-      <h1>This is islamic Event Manager</h1>
       <Header></Header>
+      <Body></Body>
     </div>
   );
 }

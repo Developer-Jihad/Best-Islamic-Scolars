@@ -1,0 +1,15 @@
+.header{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    background-color: darkcyan;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 20px;
+}
+.header-title{
+    color: white;
+}
+.description{
+    color: gold;
+}

@@ -1,0 +1,11 @@
+.sites-body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 83%;
+    margin: auto;
+}
+
+.scolars-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

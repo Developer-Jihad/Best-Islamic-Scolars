@@ -1,0 +1,22 @@
+.single-scholar{
+     background-color: rgb(247, 223, 245);
+     border-radius: 10px;
+     margin: 20px 20px 0 0;
+     padding: 10px;
+     text-align: center;
+     box-shadow: 5px 5px 5px grey;
+    
+}
+
+.image{
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px grey;
+}
+.single-scholar button{
+    width: 150px;
+    height: 25px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    color: white;
+}
