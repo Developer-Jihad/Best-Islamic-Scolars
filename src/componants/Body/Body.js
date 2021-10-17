@@ -30,7 +30,7 @@ const Body = () => {
                 }
             </div>
             <div className="invitation-container">
-                <Invitation invite={invite}></Invitation>
+                <Invitation key={invite.id} invite={invite}></Invitation>
             </div>
         </div>
     );

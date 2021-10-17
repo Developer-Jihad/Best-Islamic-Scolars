@@ -7,7 +7,7 @@ const Invitation = (props) => {
     let total = 0;
     for (const scholar of invite) {
         total = total + scholar.salary;
-        invitedScholar = [...invitedScholar, <p key={scholar.id}>{scholar.name}</p>];
+        invitedScholar = [...invitedScholar, <p>{scholar.name}</p>];
     }
     return (
         <div className="invitation">
