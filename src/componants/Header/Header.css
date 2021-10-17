@@ -7,7 +7,7 @@
     padding: 20px;
     border-radius: 0px 20px;
 }
-.header-title{
+.header-title, .budget {
     color: white;
 }
 .description{

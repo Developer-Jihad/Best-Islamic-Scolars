@@ -98,6 +98,15 @@
     "age": 35,
     "country": "Bangladesh",
     "salary": 70000
+  },
+  {
+    "id": 12,
+    "name": "Mufti Taqi Usmani",
+    "img": "https://www.khabargeer.com/en/wp-content/uploads/2021/07/Mufti-Taqi-Usmani-780x470.jpg",
+    "profession": "Speaker, writer",
+    "age": 35,
+    "country": "Bangladesh",
+    "salary": 70000
   }
   
 ]

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Invitation from '../Invitation/Invitation';
 import Scholar from '../Scholar/Scholar';
 import './Body.css'
 
 const Body = () => {
     const [scholars, setScholars] = useState([]);
+    const [invite, setInvite] = useState([]);
 
     useEffect(() => {
         fetch('./scholar.json')
@@ -11,16 +13,24 @@ const Body = () => {
             .then(data => setScholars(data));
     }, [])
 
+    const handleAddtoInvite = (scholar) => {
+        const newInvite = [...invite, scholar];
+        setInvite(newInvite);
+    }
+
     return (
         <div className="sites-body">
             <div className="scolars-container">
                 {
-                    scholars.map(scholar => <Scholar scholar={scholar}></Scholar>)
+                    scholars.map(scholar => <Scholar
+                        key={scholar.id}
+                        scholar={scholar}
+                        handleAddtoInvite={handleAddtoInvite}
+                    ></Scholar>)
                 }
             </div>
             <div className="invitation-container">
-                <h2>Invitaion</h2>
-                <h4>invited person:</h4>
+                <Invitation invite={invite}></Invitation>
             </div>
         </div>
     );
